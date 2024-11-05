@@ -3,4 +3,5 @@ def nomeContrarioMaiusculo (nome):
   nomeMaiusculoInvertido = nomeMaiusculo[::-1]
   print(nomeMaiusculoInvertido)
 
-nomeContrarioMaiusculo("Diego")
+nome = input("Digite aqui o nome que deseja inverter:\n")
+nomeContrarioMaiusculo(nome)
