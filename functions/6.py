@@ -25,7 +25,6 @@ if resultado is not None:
 else:
     print("Data inválida. Retornando NULL.")
 
-# OU IMPORTANDO DATETIME
     
 from datetime import datetime
 
