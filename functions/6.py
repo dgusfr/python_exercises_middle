@@ -1,9 +1,8 @@
-def data_por_extenso(data):
+def data_por_ext(data):
     try:
         # Separar dia, mês e ano
         dia, mes, ano = map(int, data.split('/'))
 
-        # Validar a data
         if not (1 <= dia <= 31 and 1 <= mes <= 12):
             raise ValueError("Data inválida")
 
