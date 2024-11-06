@@ -19,8 +19,7 @@ def data_por_ext(data):
 
 data_input = input("Informe a data no formato DD/MM/AAAA: ")
 
-# Chamar a função e imprimir o resultado
-resultado = data_por_extenso(data_input)
+resultado = data_por_ext(data_input)
 if resultado is not None:
     print(f"A data por extenso é: {resultado}")
 else:
