@@ -15,7 +15,6 @@ def data_por_ext(data):
 
         return formato_final
     except (ValueError, IndexError):
-        # Tratar erro de data inválida
         return None
 
 # Solicitar entrada do usuário
