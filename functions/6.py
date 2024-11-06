@@ -37,7 +37,6 @@ def data_por_extenso(data):
 
         return formato_final
     except ValueError:
-        # Tratar erro de data inválida
         return None
 
 # Solicitar entrada do usuário
