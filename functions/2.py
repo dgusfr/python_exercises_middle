@@ -7,7 +7,6 @@ numero3 = int(input("Informe o terceiro número: "))
 
 print("A soma dos números é:", somando(numero1, numero2, numero3))
 
-# ou usando listas e laços
 print("Usando listas e Laços:")
 def calculaSoma(lista):
     return sum(lista)
