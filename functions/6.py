@@ -33,7 +33,6 @@ def data_por_extenso(data):
     try:
         data_formatada = datetime.strptime(data, '%d/%m/%Y')
 
-        # Obter o formato desejado
         formato_final = data_formatada.strftime('%d de %B de %Y')
 
         return formato_final
