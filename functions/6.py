@@ -5,7 +5,6 @@ def data_por_ext(data):
         if not (1 <= dia <= 31 and 1 <= mes <= 12):
             raise ValueError("Data inválida")
 
-        # Lista com os nomes dos meses
         meses = [
             "Janeiro", "Fevereiro", "Março", "Abril",
             "Maio", "Junho", "Julho", "Agosto",
