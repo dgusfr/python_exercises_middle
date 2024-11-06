@@ -11,6 +11,5 @@ def embaralha_palavra(palavra):
 
 palavra_input = input("Informe uma palavra: ")
 
-# Chamar a função e imprimir o resultado
 resultado = embaralha_palavra(palavra_input)
 print(f"A palavra embaralhada é: {resultado}")
