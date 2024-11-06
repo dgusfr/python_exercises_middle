@@ -9,7 +9,6 @@ def embaralha_palavra(palavra):
 
     return palavra_embaralhada
 
-# Solicitar entrada do usuário
 palavra_input = input("Informe uma palavra: ")
 
 # Chamar a função e imprimir o resultado
