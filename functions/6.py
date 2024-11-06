@@ -11,7 +11,6 @@ def data_por_ext(data):
             "Setembro", "Outubro", "Novembro", "Dezembro"
         ]
 
-        # Formatar a data
         formato_final = f"{dia} de {meses[mes - 1]} de {ano}"
 
         return formato_final
