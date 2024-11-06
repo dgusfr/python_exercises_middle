@@ -3,7 +3,6 @@ import random
 def embaralha_palavra(palavra):
     palavra = palavra.lower()
 
-    # Embaralhar os caracteres
     caracteres_embaralhados = random.sample(palavra, len(palavra))
 
     # Juntar os caracteres embaralhados em uma string
