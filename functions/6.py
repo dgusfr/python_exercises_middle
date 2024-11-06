@@ -39,7 +39,6 @@ def data_por_extenso(data):
     except ValueError:
         return None
 
-# Solicitar entrada do usuário
 data_input = input("Informe a data no formato DD/MM/AAAA: ")
 
 # Chamar a função e imprimir o resultado
