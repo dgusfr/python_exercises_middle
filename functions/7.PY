@@ -1,7 +1,6 @@
 import random
 
 def embaralha_palavra(palavra):
-    # Padronizar para caixa baixa
     palavra = palavra.lower()
 
     # Embaralhar os caracteres
