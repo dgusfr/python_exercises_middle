@@ -5,7 +5,6 @@ def embaralha_palavra(palavra):
 
     caracteres_embaralhados = random.sample(palavra, len(palavra))
 
-    # Juntar os caracteres embaralhados em uma string
     palavra_embaralhada = ''.join(caracteres_embaralhados)
 
     return palavra_embaralhada
