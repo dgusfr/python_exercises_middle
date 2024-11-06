@@ -25,12 +25,12 @@ if resultado is not None:
 else:
     print("Data inválida. Retornando NULL.")
 
-    
+
+#*****************************************
 from datetime import datetime
 
 def data_por_extenso(data):
     try:
-        # Converter a string de data para um objeto datetime
         data_formatada = datetime.strptime(data, '%d/%m/%Y')
 
         # Obter o formato desejado
