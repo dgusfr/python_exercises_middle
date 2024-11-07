@@ -2,7 +2,6 @@ import re
 
 def eh_palindromo(frase):
     frase_limpa = re.sub(r'[^a-zA-Z0-9]', '', frase.lower())
-    # frase.lower(): Converte a string para minúsculas antes de aplicar a substituição
 
     # Verificar se a string limpa é um palíndromo
     return frase_limpa == frase_limpa[::-1]
