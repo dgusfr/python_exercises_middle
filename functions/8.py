@@ -19,5 +19,4 @@ def desenha_moldura(linhas=1, colunas=1):
 linhas_input = int(input("Informe o número de linhas (entre 1 e 20): "))
 colunas_input = int(input("Informe o número de colunas (entre 1 e 20): "))
 
-# Chamar a função e desenhar a moldura
 desenha_moldura(linhas_input, colunas_input)
