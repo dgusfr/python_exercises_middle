@@ -2,7 +2,6 @@ import re
 
 def eh_palindromo(frase):
     frase_limpa = re.sub(r'[^a-zA-Z0-9]', '', frase.lower())
-    # re.sub: Função de substituição de expressões regulares
     # r'[^a-zA-Z0-9]': Padrão que corresponde a qualquer caractere que não seja uma letra (maiúscula ou minúscula) ou número
     # frase.lower(): Converte a string para minúsculas antes de aplicar a substituição
 
