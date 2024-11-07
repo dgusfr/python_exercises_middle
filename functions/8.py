@@ -2,7 +2,6 @@ def desenha_moldura(linhas=1, colunas=1):
     linhas = max(1, min(linhas, 20))
     colunas = max(1, min(colunas, 20))
 
-    # Desenhar a moldura
     for i in range(linhas):
         for j in range(colunas):
             if i == 0 or i == linhas - 1:
