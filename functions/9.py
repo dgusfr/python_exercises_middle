@@ -1,7 +1,6 @@
 import re
 
 def eh_palindromo(frase):
-    # Remover caracteres não alfanuméricos, acentos e espaços
     frase_limpa = re.sub(r'[^a-zA-Z0-9]', '', frase.lower())
     # re.sub: Função de substituição de expressões regulares
     # r'[^a-zA-Z0-9]': Padrão que corresponde a qualquer caractere que não seja uma letra (maiúscula ou minúscula) ou número
