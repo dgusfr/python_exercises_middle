@@ -1,5 +1,4 @@
 def desenha_moldura(linhas=1, colunas=1):
-    # Limitar os valores de linhas e colunas entre 1 e 20
     linhas = max(1, min(linhas, 20))
     colunas = max(1, min(colunas, 20))
 
