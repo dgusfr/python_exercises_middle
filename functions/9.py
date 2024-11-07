@@ -6,7 +6,6 @@ def eh_palindromo(frase):
 
 frase_input = input("Informe uma frase para verificar se é um palíndromo: ")
 
-# Chamar a função e imprimir o resultado
 if eh_palindromo(frase_input):
     print("A frase é um palíndromo!")
 else:
