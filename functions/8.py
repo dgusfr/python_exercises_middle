@@ -16,7 +16,6 @@ def desenha_moldura(linhas=1, colunas=1):
                     print(' ', end=' ')
         print()  
 
-# Solicitar entrada do usuário
 linhas_input = int(input("Informe o número de linhas (entre 1 e 20): "))
 colunas_input = int(input("Informe o número de colunas (entre 1 e 20): "))
 
