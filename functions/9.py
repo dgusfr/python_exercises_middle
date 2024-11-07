@@ -4,7 +4,6 @@ def eh_palindromo(frase):
     frase_limpa = re.sub(r'[^a-zA-Z0-9]', '', frase.lower())
     return frase_limpa == frase_limpa[::-1]
 
-# Solicitar entrada do usuário
 frase_input = input("Informe uma frase para verificar se é um palíndromo: ")
 
 # Chamar a função e imprimir o resultado
