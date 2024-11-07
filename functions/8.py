@@ -14,7 +14,7 @@ def desenha_moldura(linhas=1, colunas=1):
                     print('|', end=' ')
                 else:
                     print(' ', end=' ')
-        print()  # Nova linha entre as linhas
+        print()  
 
 # Solicitar entrada do usuário
 linhas_input = int(input("Informe o número de linhas (entre 1 e 20): "))
