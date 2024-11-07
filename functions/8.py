@@ -10,7 +10,6 @@ def desenha_moldura(linhas=1, colunas=1):
                 else:
                     print('-', end=' ')
             else:
-                # Linhas internas
                 if j == 0 or j == colunas - 1:
                     print('|', end=' ')
                 else:
